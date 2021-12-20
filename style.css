@@ -33,8 +33,14 @@ html {
   flex-direction: row-reverse;
 }
 img {
-  margin: 5px;
+
   width: 280px;
+  display: block; /*entfernt die 4px unterhalb*/
+  width: 100%;
 }
 
 .text {margin: 5px;}
+
+.bild, .text {width: 50%;}
+
+sup {font-size: 10px; color: blue;}
