@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  max-width: 600px;
+  border: red solid 2px;
+  padding: 5px;
+}
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  font-size: 100%;
+}
+
+.card-1 {
+  border: black solid 2px;
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.card-2 {
+  border: black solid 2px;
+  margin-top: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+img {
+  margin: 5px;
+  width: 280px;
+}
+
+.text {margin: 5px;}
